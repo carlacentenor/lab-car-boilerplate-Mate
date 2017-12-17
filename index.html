@@ -78,11 +78,11 @@
                     <img class='logo-white' src="assets/images/logoBlanco.png" alt="logo-blanco">
                 </div>
             </div>
-            <button class="btn  waves-effect white btn-app" data-toggle="modal" data-target="#modal-register" data-backdrop="false">REGíSTRATE</button>
+            <a class="btn  waves-effect white btn-app modal-trigger" href="#modal2">REGíSTRATE</a>
             <div class="line">
                 <span>o bien</span>
             </div>
-            <button class="btn waves-effect white btn-app" data-toggle="modal" data-target="#modal-driver" data-backdrop="false">Conviertete en conductor</button>
+            <a class="btn waves-effect white btn-app modal-trigger" href="#modal3">Conviertete en conductor</a>
 
 
         </div>
@@ -126,7 +126,7 @@
             <div class="col s11 col m4  offset-m8 text-section-3">
                 <p class="bold title-section-3">Conduce cuando quieras</p>
                 <p>LabCar es una opción flexible para alcanzar tus metas financieras.</p>
-                <button class="btn  waves-effect amber darken-1 btn-section3" data-toggle="modal" data-target="#modal-driver" data-backdrop="false">Conviertete en conductor</button>
+                <a class="btn  waves-effect amber darken-1 btn-section3 modal-trigger" href="#modal3">Conviertete en conductor</a>
             </div>
         </div>
     </section>
@@ -281,6 +281,92 @@
         </div>
 
     </div>
+
+    
+    <!-- Modal Structure 2 -->
+    <div id="modal2" class="modal">
+            <div>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">&times;</a>
+            </div>
+           
+            <div class="modal-content">
+                    <form class="form-register" action="">
+                            <button class="btn btn-block  black">Ya tienes una cuenta?</button>
+                            <p class="uppercase"> o crea una cuenta nueva</p>
+    
+                            <input type="text" class=" input-inline" placeholder="Nombre">
+                            <input type="text" class=" input-inline" placeholder="Apellido">
+    
+                            <input type="text" class="form-control" placeholder="Correo Electrónico: ejemplo@correo.mx">
+                            <input type="text" class="form-control" placeholder="Teléfono">
+                            <input type="text" class="form-control" placeholder="Contraseña">
+                            <input type="text" class="form-control" placeholder="Ciudad">
+                            <input type="text" class="form-control" placeholder="(Opcional) Código de Invitación">
+                            <button class="btn grey lighten-2 combo btn-block">Cómo te enteraste de nosotros?
+                                <span class="fa fa-chevron-down"></span>
+                            </button>
+                            <button class="btn cyan btn-block">Enviar</button>
+    
+    
+    
+                        </form>
+               
+            </div>
+    
+        </div>
+
+         <!-- Modal Structure 3 -->
+    <div id="modal3" class="modal">
+            <div>
+                <a href="#!" class="modal-action modal-close waves-effect waves-green btn-flat">&times;</a>
+            </div>
+           
+            <div class="modal-content">
+                    <form class="form-register" action="">
+                            <p>¿Tienes vehículo de 4 puertas?</p>
+                            <div class="input-field dropdown-modal">
+                                    <select>
+                                      <option value="" disabled selected>Si</option>
+                                      <option value="1">No</option>
+                                      
+                                    </select>
+                                    
+                                  </div>
+                            <p>Marca</p>
+                            <div class="input-field dropdown-modal">
+                                    <select>
+                                      <option value="" disabled selected>Elige la marca del vehículo</option>
+                                      <option value="1">Toyota</option>
+                                    </select>
+                                  </div>
+                            <p class="text-sug">¿No ves tu vehículo en la lista?Envía un correo electrónico a</p>
+                            <p class="text-email">sociosmdv@uber.com</p>
+                            <p>Modelo</p>
+                            <div class="input-field dropdown-modal">
+                                    <select>
+                                      <option value="" disabled selected>Modelo 1</option>
+                                      <option value="1">Modelo 2</option>
+                                    </select>
+                                  </div>
+                            <p>Año</p>
+                            <div class="input-field dropdown-modal">
+                                    <select>
+                                      <option value="" disabled selected>2017</option>
+                                      <option value="1">2016</option>
+                                    </select>
+                                  </div>
+                            <p>Número de matrícula</p>
+                            <input type="text" class="form-control" placeholder="Número de matrícula">
+                            <p class="text-info">La información de la matrícula ayuda a los clientes a identificar tu vehículo</p>
+                            <button class="btn cyan btn-block">Enviar</button>
+    
+    
+    
+                        </form>
+               
+            </div>
+    
+        </div>
 
 
 

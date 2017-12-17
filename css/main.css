@@ -171,7 +171,7 @@ nav .button-collapse i {
 }
 
 .row .col.s11 {
-    margin-left: 1em;
+    
     padding: 20px;
 }
 
@@ -305,19 +305,19 @@ footer li {
 
 .modal{
     background-color: #08AC9D;
-    overflow-y:hidden;
+    
     overflow-x: hidden;
     padding: 0 2em 2em  2em;
 }
 
 .modal .modal-content{
     padding: 0;
-    width: 85%;
+    width: 55%;
     margin: 0 auto;
 }
 
 .modal .modal-close{
-    float: right;
+    float: right
 }
 
 
@@ -347,11 +347,42 @@ footer li {
     color: black;
 }
 
+#modal2, #modal3{
+    background-color: #A9A9A9;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+
+
+.form-register p {
+    color: black;
+}
+
+.dropdown-modal{
+    background-color: white;
+    padding: 0 10px;
+    border-radius: 5px;
+}
+
+
+#modal2 form, #modal3 form{
+    width: 100%;
+    margin: 1em;
+}
+
+#modal2 .modal-content , #modal3 .modal-content{
+    width: 100%;
+    padding: 2em;
+
+}
+
 
 
 /* input*/
 
-  #direction input[type=text]:not(.browser-default){
+  #direction input[type=text]:not(.browser-default), #modal2 input {
     margin-left: 1em;
     font-size: 14px;
     border: 1px solid white;
@@ -368,6 +399,22 @@ footer li {
 
   }
 
+  #modal2 input  {
+      width: 90%;
+      background-color: white;
+      color: black;
+  }
+
+  #modal3 input{
+      background-color: white;
+      color: black;
+      padding-left: 10px;
+  }
+
+  #modal2 input::placeholder ,#modal3 input::placeholder{
+      color: grey;
+  }
+
   .form-signin input[type=text]:not(.browser-default){
     
     font-size: 14px;
@@ -378,11 +425,46 @@ footer li {
     outline: none;
     width: 65%;
       color: black;
-      height: 2em;
   }
  
+.btn-block{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
 
+.combo, .combo span{
+    color: black;
+}
 
+#modal2 .input-inline {
+    display: inline-block;
+    width: 41.6%;
+}
+.uppercase {
+    text-transform: uppercase;
+    color: black;
+    margin: 2% 30%;
+    font-weight: 900;
+}
+
+.text-sug {
+    color: #6b6b6b;
+    font-weight: 400;
+    font-size: 12px;
+    margin-bottom: 0;
+}
+
+#modal3 .text-email {
+    color: rgb(82, 119, 133);
+    font-weight: 400;
+    font-size: 12px;
+    margin-top: 0;
+}
+
+.text-info {
+    font-weight: 300;
+}
 
 @media (min-width: 600px) {
     .container{
