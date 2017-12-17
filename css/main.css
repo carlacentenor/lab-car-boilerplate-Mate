@@ -171,7 +171,6 @@ nav .button-collapse i {
 }
 
 .row .col.s11 {
-    
     padding: 20px;
 }
 
@@ -193,6 +192,8 @@ nav .button-collapse i {
 .text-section-4 {
     display: inline;
 }
+
+
 /*
 input:not([type]),
 input[type=text]:not(.browser-default),
@@ -217,6 +218,7 @@ textarea.materialize-textarea {
     width: 65%;
 }
 */
+
 .input-local::placeholder {
     color: white;
 }
@@ -297,126 +299,120 @@ footer li {
     text-align: left;
 }
 
+
 /*Modales*/
+
 .img-modal {
     width: 25%;
     margin: 0 38%;
 }
 
-.modal{
+.modal {
     background-color: #08AC9D;
-    
     overflow-x: hidden;
-    padding: 0 2em 2em  2em;
+    padding: 0 2em 2em 2em;
 }
 
-.modal .modal-content{
+.modal .modal-content {
     padding: 0;
     width: 55%;
     margin: 0 auto;
 }
 
-.modal .modal-close{
+.modal .modal-close {
     float: right
 }
-
 
 .form-signin {
     background-color: #F5F5F5;
     padding: 1em;
-    
     border-radius: 5px;
 }
 
-.input-group span{
+.input-group span {
     color: black;
     font-size: 24px;
     padding-right: 10px;
 }
 
-.input-group{
+.input-group {
     margin: 0 auto;
     width: 200px;
 }
 
-.btn-modal-sign{
+.btn-modal-sign {
     margin: 0 25%;
 }
 
-.password-text{
+.password-text {
     color: black;
 }
 
-#modal2, #modal3{
+#modal2,
+#modal3 {
     background-color: #A9A9A9;
     padding: 10px;
     border-radius: 10px;
-    
 }
-
-
 
 .form-register p {
     color: black;
 }
 
-.dropdown-modal{
+.dropdown-modal {
     background-color: white;
     padding: 0 10px;
     border-radius: 5px;
 }
 
-
-#modal2 form, #modal3 form{
+#modal2 form,
+#modal3 form {
     width: 100%;
     margin: 1em;
 }
 
-#modal2 .modal-content , #modal3 .modal-content{
+#modal2 .modal-content,
+#modal3 .modal-content {
     width: 100%;
     padding: 2em;
-
 }
-
 
 
 /* input*/
 
-  #direction input[type=text]:not(.browser-default), #modal2 input {
+#direction input[type=text]:not(.browser-default),
+#modal2 input {
     margin-left: 1em;
     font-size: 14px;
     border: 1px solid white;
     border-radius: 10px;
     padding: 0px 10px;
-    
     outline: none;
     width: 65%;
-    
-    
-  }
-  #direction input[type=text]:not(.browser-default)::placeholder{
-      color: white;
+}
 
-  }
+#direction input[type=text]:not(.browser-default)::placeholder {
+    color: white;
+}
 
-  #modal2 input  {
-      width: 90%;
-      background-color: white;
-      color: black;
-  }
+#modal2 input {
+    width: 90%;
+    background-color: white;
+    color: black;
+}
 
-  #modal3 input{
-      background-color: white;
-      color: black;
-      padding-left: 10px;
-  }
+#modal3 input {
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+}
 
-  #modal2 input::placeholder ,#modal3 input::placeholder{
-      color: grey;
-  }
+#modal2 input::placeholder,
+#modal3 input::placeholder {
+    color: grey;
+}
 
-  .form-signin input[type=text]:not(.browser-default){
-    
+.form-signin input[type=text]:not(.browser-default) {
     font-size: 14px;
     border: 1px solid rgb(201, 197, 197);
     border-radius: 10px;
@@ -424,16 +420,17 @@ footer li {
     background-color: white;
     outline: none;
     width: 65%;
-      color: black;
-  }
- 
-.btn-block{
+    color: black;
+}
+
+.btn-block {
     width: 100%;
     margin-bottom: 10px;
     border-radius: 10px;
 }
 
-.combo, .combo span{
+.combo,
+.combo span {
     color: black;
 }
 
@@ -441,6 +438,7 @@ footer li {
     display: inline-block;
     width: 41.6%;
 }
+
 .uppercase {
     text-transform: uppercase;
     color: black;
@@ -467,59 +465,46 @@ footer li {
 }
 
 @media (min-width: 600px) {
-    .container{
-        max-width: inherit ;
-
+    .container {
+        max-width: inherit;
     }
-
-
     nav ul a {
         color: black;
     }
-    .bg-orange-desktop h2{
+    .bg-orange-desktop h2 {
         font-size: 23px;
         font-weight: 600;
         margin: 4px 0;
-
     }
-
-    .logo-section{
+    .logo-section {
         margin-top: 20px;
     }
-
-    .text-logo{
+    .text-logo {
         font-size: 16px;
         font-weight: 600;
     }
-
-    .logo-white{
+    .logo-white {
         width: 24%;
     }
-
     .line span {
         margin: 0 1em;
     }
-
-    .btn-app{
+    .btn-app {
         margin-bottom: 1em;
     }
-
     .border-white {
         width: 80%;
         margin: 0;
         border-left: none;
         padding-right: 5em;
     }
-
     .section-2 {
         width: 100%;
         padding: 2em 0;
     }
-
-    .text-app{
+    .text-app {
         text-align: justify;
     }
-
     .bg-section-3 {
         background-position: center center;
         height: 50vh;
@@ -534,25 +519,18 @@ footer li {
         font-size: 18px;
         margin: 0;
     }
-
     .title-section-3 {
         font-size: 25px;
     }
-
     .logo-footer {
         width: 60%;
     }
-
-    #icons-social{
+    #icons-social {
         position: absolute;
         top: 18.5em;
     }
-
     .box-logos-footer {
         position: absolute;
         top: 13em;
     }
-  
-
-
 }
