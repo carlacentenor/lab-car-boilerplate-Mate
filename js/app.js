@@ -1,5 +1,11 @@
 // La funcionalidad de tu proyecto
+
 $('.button-collapse').sideNav();
+
+
+$(document).ready(function(){
+  $('.modal').modal();
+});
 
 /* Google maps*/ 
 function initMap() {

@@ -193,7 +193,7 @@ nav .button-collapse i {
 .text-section-4 {
     display: inline;
 }
-
+/*
 input:not([type]),
 input[type=text]:not(.browser-default),
 input[type=password]:not(.browser-default),
@@ -216,7 +216,7 @@ textarea.materialize-textarea {
     outline: none;
     width: 65%;
 }
-
+*/
 .input-local::placeholder {
     color: white;
 }
@@ -296,6 +296,93 @@ footer li {
 .text-final {
     text-align: left;
 }
+
+/*Modales*/
+.img-modal {
+    width: 25%;
+    margin: 0 38%;
+}
+
+.modal{
+    background-color: #08AC9D;
+    overflow-y:hidden;
+    overflow-x: hidden;
+    padding: 0 2em 2em  2em;
+}
+
+.modal .modal-content{
+    padding: 0;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.modal .modal-close{
+    float: right;
+}
+
+
+.form-signin {
+    background-color: #F5F5F5;
+    padding: 1em;
+    
+    border-radius: 5px;
+}
+
+.input-group span{
+    color: black;
+    font-size: 24px;
+    padding-right: 10px;
+}
+
+.input-group{
+    margin: 0 auto;
+    width: 200px;
+}
+
+.btn-modal-sign{
+    margin: 0 25%;
+}
+
+.password-text{
+    color: black;
+}
+
+
+
+/* input*/
+
+  #direction input[type=text]:not(.browser-default){
+    margin-left: 1em;
+    font-size: 14px;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 0px 10px;
+    
+    outline: none;
+    width: 65%;
+    
+    
+  }
+  #direction input[type=text]:not(.browser-default)::placeholder{
+      color: white;
+
+  }
+
+  .form-signin input[type=text]:not(.browser-default){
+    
+    font-size: 14px;
+    border: 1px solid rgb(201, 197, 197);
+    border-radius: 10px;
+    padding: 0px 10px;
+    background-color: white;
+    outline: none;
+    width: 65%;
+      color: black;
+      height: 2em;
+  }
+ 
+
+
 
 @media (min-width: 600px) {
     .container{
